@@ -12,3 +12,6 @@ export interface InstallableTool {
     install: (installToolProps: InstallToolProps) => Tool;
 }
 
+export interface IToolInstaller extends Tool {
+	installTool(props: any): Promise<void>;
+}
