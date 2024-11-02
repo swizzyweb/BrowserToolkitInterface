@@ -1,7 +1,6 @@
 {
   "name": "@swizzyweb/browser-toolkit-interface",
   "version": "0.1.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -12,5 +11,19 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swizzyweb/BrowserToolkitInterface.git"
+  },
+  "keywords": [
+    "browser",
+    "toolkit"
+  ],
+  "bugs": {
+    "url": "https://github.com/swizzyweb/BrowserToolkitInterface/issues"
+  },
+  "homepage": "https://github.com/swizzyweb/BrowserToolkitInterface#readme",
+  "description": "Toolkit interfaces for browsertoolkit"
 }
